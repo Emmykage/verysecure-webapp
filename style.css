@@ -24,28 +24,35 @@ body{
     overflow: hidden;
   
     background-image: 
+
       url('/assets/images//Lock\ Floating.svg'),
+      url('/assets/images/Lock.svg'),
+
       url('/assets//images/Platform.svg'),
       url('/assets/images/Mask\ group.svg'),
       url('/assets/images/Google-1.svg'),
       url('/assets/images/Google.svg')
+
       ;   
     background-repeat: 
     no-repeat,
      no-repeat ,
      no-repeat,
      no-repeat,
+     no-repeat,
      no-repeat
      ;
     background-position: 
-    5px 4px,
+    5px -24px,
+    5px -200px,
     -32px 5px,
     100px 380px,
-    57px 280px,
+    40px 300px,
     320px 260px
     ;   
    background-size: 
    380px 400px, 
+   380px 800px, 
    450px 450px,
    650px 650px,
    70px 80px,
@@ -312,18 +319,24 @@ h3{
     /* background-color: #5f5e5e; */
    
     background-position: 
-    78px -10px,
+
+    78px -70px,
+    80px -310px,
     22px 5px,
     -300px 20px,
     147px 440px,
     590px 340px
+
     ;   
        background-size: 
+
    540px 600px, 
+   540px 1200px,
    650px 650px,
    850px 850px,
    120px 130px,
    120px 130px
+
    ;
     }
 
